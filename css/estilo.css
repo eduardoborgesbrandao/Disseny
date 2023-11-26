@@ -1,0 +1,692 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color:whitesmoke;
+    color: #181616;
+    padding: 10px;
+  
+    display: flex;
+}
+
+
+.carrinho{
+    width:30px;
+    height: 30px;
+    
+}   
+.pesquisa{
+    width:30px;
+    height: 30px;
+    margin-left: 1140px;
+}
+.logo{
+  width: 150px;
+  margin-left: -200%;
+  
+}
+
+.barra {
+display:flex;
+max-width: 400px;
+}
+
+#search-input {
+width: 70px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 40px;
+outline: none;
+margin-left: 1600px;
+}
+
+
+.conta{
+    width:30px;
+    height: 30px;
+    
+}
+
+nav ul {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+.Dogs {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url('img/DogsWear.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Dogs  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Dogs  img {
+    width: 100%;
+    height: auto;
+    top: 10%;
+    
+}
+
+.Dogs  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Bolsas {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+a.Bolsas {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Bolsas  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 140%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Bolsas  img {
+    width: 100%;
+    height: auto;
+}
+
+.Bolsas  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 150%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Feminina {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Feminina  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 355%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Feminina  img {
+    width: 100%;
+    height: auto;
+}
+
+.Feminina  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 365%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Masculino {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Masculino  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 465%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Masculino  img {
+    width: 100%;
+    height: auto;
+}
+
+.Masculino  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 475%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Tenis {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Tenis  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 575%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Tenis  img {
+    width: 100%;
+    height: auto;
+}
+
+.Tenis  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 585%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Acessorios {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Acessorios  h2 {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 780%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Acessorios  img {
+    width: 100%;
+    height: auto;
+}
+
+.Acessorios  button {
+    display: block;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 790%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.sidebar{
+  position: fixed;
+  width: 240px;
+  left: -240px;
+  height: 100%;
+  background-color: #fff;
+  transition: all .5s ease;
+  z-index: 99999999;
+}
+.sidebar header{
+  font-size: 28px;
+  color: #353535;
+  line-height: 70px;
+  text-align: center;
+  background-color: #fff;
+
+}
+.sidebar a{
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: #353535;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-left: 5px solid transparent;
+  transition: all .5s ease;
+}
+a.active,a:hover{
+  border-left: 5px solid black;
+  color: #fff;
+   background: whitesmoke;
+}
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  left: 5px;
+  cursor: pointer;
+  color: black;
+  border-radius: 40%;
+  margin: 15px 30px;
+  font-size: 29px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 65px;
+  transition: all .5s ease;
+}
+label #cancel{
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  margin-left: 245px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #cancel{
+  margin-left: 245px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*renponsividade*/
+@media(max-width : 800px){
+  .sidebar{
+    color: whitesmoke;
+    z-index: 99999999;
+  }
+
+  #btn{
+    visibility: visible;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    color: black;
+    text-transform: uppercase;
+  }
+  .sidebar a{
+    height: 60px;
+  }
+  .sidebar a i{
+    margin-left: -10px;
+  }
+  a:hover {
+    width: 200px;
+    background: inherit;
+  }
+  .sidebar a:hover span{
+    opacity: 1;
+    visibility: visible;
+  }
+  .conta{
+    width:25px;
+    height: 25px;
+    margin-left: -120px;
+}
+
+.carrinho{
+  width:25px;
+  height: 25px;
+  margin-left: -145px;
+}   
+.pesquisa{
+  width:25px;
+  height: 25px;
+  margin-left: -175px;
+}
+.logo{
+width: 120px;
+margin-left: -200%;
+
+}
+.Dogs  h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Dogs  button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+.Bolsas  h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Bolsas button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+.Feminina h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 102%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Feminina  button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 107%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+.Masculino  h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 132%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Masculino  button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 137%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+.Tenis  h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 162%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Tenis button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 167%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+.Acessorios  h2 {
+  margin-bottom: 10px;
+  position: absolute;
+  top: 217%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Acessorios  button {
+  display: block;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 222%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 25px;
+}
+}
+/*esse evento abre o menu nav e faz um efeito na de hover font cor de fundo*/
+.sidebar > a.active,.sidebar > a:hover:nth-child(even) {
+  color: black;
+
+}
+/*esse evento abre o menu nav e faz um efeito na de hover cor de fundo*/
+.sidebar a.active,.sidebar > a:hover:nth-child(odd) {
+  color: black;
+
+}
+
+/*botao que abre e fecha o menu*/
+.frame {
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+  
+footer{
+  background-color: whitesmoke;
+  height: 120px;
+ padding-top: 2%;
+ margin-top: 100px;
+ 
+
+}
+#redes{
+ 
+ justify-content: center;
+ display: flex;
+
+ 
+}
+#redes a{
+  padding: 10px;
+}
+#info {
+  text-align: center;
+}
+#info li{
+  display: inline-block;
+  padding-top: px;
+}
+#info li a{
+  padding: 5px;
+  color: black;
+  font-size: 13px;
+  
+}
+ 
+#redes img{
+  width:29px;
+  height: 29px;
+}
+

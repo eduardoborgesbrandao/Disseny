@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  header {
+      background-color:whitesmoke;
+      color: #181616;
+      padding: 10px;
+    
+      display: flex;
+  }
+  
+  
+  .menu{
+      width:30px;
+      height: 30px;
+  
+  }
+  .carrinho{
+      width:30px;
+      height: 30px;
+      
+  }   
+  .pesquisa{
+      width:30px;
+      height: 30px;
+      margin-left: 1140px;
+  }
+  .logo{
+    width: 150px;
+    margin-left: -200%;
+    
+  }
+  
+  .barra {
+  display:flex;
+  max-width: 400px;
+  }
+  
+  #search-input {
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  outline: none;
+  margin-left: 1600px;
+  }
+  
+  
+  .conta{
+      width:30px;
+      height: 30px;
+      
+  }
+  
+  nav ul {
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
+  nav ul li {
+      margin-right: 10px;
+  }
+  
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      
+  }
+.sidebar{
+    position: fixed;
+    width: 240px;
+    left: -240px;
+    height: 100%;
+    background-color: #fff;
+    transition: all .5s ease;
+  }
+  .sidebar header{
+    font-size: 28px;
+    color: #353535;
+    line-height: 70px;
+    text-align: center;
+    background-color: #fff;
+  
+  }
+  .sidebar a{
+    display: block;
+    height: 65px;
+    width: 100%;
+    color: #353535;
+    line-height: 65px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-left: 5px solid transparent;
+    transition: all .5s ease;
+  }
+  a.active,a:hover{
+    border-left: 5px solid black;
+    color: #fff;
+     background: whitesmoke;
+  }
+  .sidebar a i{
+    font-size: 23px;
+    margin-right: 16px;
+  }
+  .sidebar a span{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #check{
+    display: none;
+  }
+  label #btn,label #cancel{
+    position: absolute;
+    left: 5px;
+    cursor: pointer;
+    color: black;
+    border-radius: 40%;
+    margin: 15px 30px;
+    font-size: 29px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 65px;
+    transition: all .5s ease;
+  }
+  label #cancel{
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  #check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #check:checked ~ label #cancel{
+    margin-left: 245px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  /*renponsividade*/
+  @media(max-width : 800px){
+    .sidebar{
+      height: auto;
+      width: 70px;
+      left: 0;
+      margin: 100px 0;
+      background-color: #ccc;
+    }
+    header,#btn,#cancel{
+      display: none;
+    }
+    span{
+      position: absolute;
+      margin-left: 23px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    .sidebar a{
+      height: 60px;
+    }
+    .sidebar a i{
+      margin-left: -10px;
+    }
+    a:hover {
+      width: 200px;
+      background: inherit;
+    }
+    .sidebar a:hover span{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  /*esse evento abre o menu nav e faz um efeito na de hover font cor de fundo*/
+  .sidebar > a.active,.sidebar > a:hover:nth-child(even) {
+    color: black;
+  
+  }
+  /*esse evento abre o menu nav e faz um efeito na de hover cor de fundo*/
+  .sidebar a.active,.sidebar > a:hover:nth-child(odd) {
+    color: black;
+  
+  }
+  
+  /*botao que abre e fecha o menu*/
+  .frame {
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-top: 5%;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#maps{
+    margin-left: 55%;
+    margin-top: -20%;
+}
+ body h3{
+    font-size: 12px;
+    margin-top: 5%;
+ }
+ footer{
+    background-color: whitesmoke;
+    height: 120px;
+   padding-top: 5%;
+   margin-top: 100px;
+   
+  
+  }
+  #redes{
+   
+   justify-content: center;
+   display: flex;
+  
+   
+  }
+  #redes a{
+    padding: 10px;
+  }
+  #info {
+    text-align: center;
+  }
+  #info li{
+    display: inline-block;
+    padding-top: px;
+  }
+  #info li a{
+    padding: 5px;
+    color: black;
+    font-size: 13px;
+    
+  }
+   
+  #redes img{
+    width:29px;
+    height: 29px;
+  }

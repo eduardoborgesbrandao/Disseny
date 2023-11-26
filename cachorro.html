@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1">
+    <title>Disseny</title>
+    <link rel = "stylesheet" href = "css/descrição.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li class="menu">
+                <input type="checkbox" id="check">
+                <label for="check">
+                  <!--pegando o icone do site fontawesome-->
+                  <i class="fas fa-bars" id="btn"></i>
+                  <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <div class="sidebar">
+                  <header>Menu</header>
+                  <a href="index.html" class="active">
+                    <span>HOME</span>
+                  </a>
+                  <a href="sobre.html">
+                    <span>SOBRE</span>
+                  </a>
+                  <a href="contato.html">
+                    <span>CONTATO</span>
+                  </a>
+                </div>
+            </ul>
+            <ul>
+              <div class="barra">
+                <input type="text" id="search-input" placeholder="Pesquisar">  
+              </div>
+                 <a href="#"><img class="logo" src="img/Logo.png"  id="logo"></a>
+                 <a href="#"><img class="pesquisa" src="img/pesquisa.png" id="pesquisa"></a>
+                 <a href="#"><img class="carrinho" src="img/carrinho.png" id="carrinho"></a>
+                 <a href="conta.html"><img class="conta" src="img/conta.png" id="conta"></a>
+            </ul>
+        </nav>
+    </header>
+    <a href="produtos.html">
+        <h2 id="Voltar">Voltar</h2>
+    </a>
+
+
+    <section id="produtos">
+        <img src="img/cachorro1.png" alt="imgprod" id="image2">
+        <div id="cards">  
+            <h3>Dogwear Suéter de Lã Gucci</h3>
+            <h3>R$ 2.260,00</h3>
+            <h3>Cor: Marrom e Bege</h3>
+            <button><a href="#">COMPRAR</a></button>
+            <button><a href="#">ADICIONAR AO CARRINHO</a></button>
+            <h3 id="tamanho">Tamanho Pequeno Porte</h3>
+        </div>
+    </section>
+<script src="js/cachorro.js"></script>
+
+<footer>
+    <div id="redes">
+     
+     <a href=""><img src="img/instagram.png" ></a>
+     <a href=""><img src="img/facebook.png" ></a>
+     <a href=""><img src="img/linkedin.png" ></a>
+  </div>
+  
+  <div id="info">
+  <ul id="footer ul">
+    <li ><a href="">Avisos legais</a></li>
+    <li ><a href=""> Central de ajuda</a></li>
+    <li ><a href="">Privacidade</a></li>
+    <li ><a href="">Termos de uso</a></li>
+  </ul>
+  <ul id="footer ul">
+    <li ><a href="">11 99785-4720</a></li>
+    <li ><a href="">disseny@gmail.com</a></li>
+  </ul>
+  <h6 id=" footer h6">Copyright@2023 Disseny.Todos os direitos reservados.Orientado por Wellington Cidade</h6>
+  </div>
+  </footer>
+</body>
+</html>

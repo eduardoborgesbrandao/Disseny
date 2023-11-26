@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disseny</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li class="menu">
+                <input type="checkbox" id="check">
+                <label for="check">
+                  <!--pegando o icone do site fontawesome-->
+                  <i class="fas fa-bars" id="btn"></i>
+                  <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <div class="sidebar">
+                  <header>Menu</header>
+                  <a href="index.html" class="active">
+                    <span>HOME</span>
+                  </a>
+                  <a href="sobre.html">
+                    <span>SOBRE</span>
+                  </a>
+                  <a href="contato.html">
+                    <span>CONTATO</span>
+                  </a>
+                </div>
+            </ul>
+            <ul>
+              <div class="barra">
+                <input type="text" id="search-input" placeholder="Pesquisar">  
+              </div>
+                <li id="logo"><a href="#"><img class="logo" src="img/Logo.png"></a></li>  
+              <li id="pesquisa"><a href="#"><img class="pesquisa" src="img/pesquisa.png"></a></li>
+                <li id="carrinho"><a href="#"><img class="carrinho" src="img/carrinho.png"></a></li>
+                <li id="conta"><a href="#"><img class="conta" src="img/conta.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>  
+        <form name="form">     
+            <p class="nome"><label for="nome">NOME:</label></p>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+     
+            <p class="telefone"><laber for="telefone">TELEFONE:</laber></p>
+            <input type="text" id= "telefone" placeholder="Digite seu telefone">
+     
+            <p class="email"><label for="email">EMAIL:</label></p>
+            <input type="email" id="idemail" placeholder="Digite seu email"><br><br>
+     
+            <textarea placeholder="Digite sua mensagem"></textarea>
+            <p class="submit"><input type="submit" value="Enviar"></p>
+        </form>
+    </section>
+    <div id="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.324500683008!2d-46.73096832488!3d-23.520828378827606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d7fd100d%3A0x9eac09850046cfa4!2sR.%20Guaip%C3%A1%2C%20678%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002675-031!5e0!3m2!1spt-BR!2sbr!4v1681987800825!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <footer>
+            <div id="redes">
+             
+             <a href=""><img src="img/instagram.png" ></a>
+             <a href=""><img src="img/facebook.png" ></a>
+             <a href=""><img src="img/linkedin.png" ></a>
+          </div>
+          
+          <div id="info">
+          <ul id="footer ul">
+            <li ><a href="">Avisos legais</a></li>
+            <li ><a href=""> Central de ajuda</a></li>
+            <li ><a href="">Privacidade</a></li>
+            <li ><a href="">Termos de uso</a></li>
+          </ul>
+          <ul id="footer ul">
+            <li ><a href="">11 99785-4720</a></li>
+            <li ><a href="">disseny@gmail.com</a></li>
+          </ul>
+          <h6 id=" footer h6">Copyright@2023 Disseny.Todos os direitos reservados.Orientado por Wellington Cidade</h6>
+          </div>
+          </footer>
+
+
+</body>
+</html>
